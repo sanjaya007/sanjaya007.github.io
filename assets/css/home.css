@@ -1,22 +1,22 @@
-.developer-container {
-  position: relative;
+.developer-container .developer-box {
   width: 100%;
   min-height: 100vh;
   max-height: 100vh;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
-.developer-container .img-box img {
+.developer-container .developer-box .img-box img {
   height: 150px;
 }
 
-.developer-container .art-box pre {
+.developer-container .developer-box .art-box pre {
   color: #149414;
   margin-left: -30px;
 }
 
-.developer-container .info-box p {
+.developer-container .developer-box .info-box p {
   color: #f1f1f1;
   font-size: 24px;
   color: #649568;
@@ -24,30 +24,30 @@
   font-family: "VT323", monospace;
 }
 
-.developer-container .info-box a {
+.developer-container .developer-box .info-box a {
   color: #149414;
 }
 
-.developer-container .footer-box a {
+.developer-container .developer-box .footer-box a {
   color: #149414;
   font-family: "Grenze Gotisch", cursive;
   text-decoration: none;
   font-size: 30px;
 }
 
-.developer-container .footer-box a i {
+.developer-container .developer-box .footer-box a i {
   font-size: 18px;
   color: #149414;
   margin-left: 6px;
   margin-bottom: -4px;
 }
 
-.developer-container .footer-box img {
+.developer-container .developer-box .footer-box img {
   height: 30px;
   margin-left: 8px;
 }
 
-.developer-container .music-box {
+.developer-container .developer-box .music-box {
   position: fixed;
   top: 0;
   right: 0;
@@ -57,7 +57,7 @@
   overflow: hidden;
 }
 
-.developer-container .music-box iframe {
+.developer-container .developer-box .music-box iframe {
   border: none;
   position: absolute;
   bottom: 4px;
@@ -155,34 +155,40 @@
 }
 
 @media (max-width: 767px) {
-  .developer-container .art-box pre {
+  .developer-container .developer-box .art-box pre {
     font-size: 12px;
   }
-  .developer-container .info-box {
+  .developer-container .developer-box .info-box {
     padding-left: 12px;
   }
-  .developer-container .info-box p {
+  .developer-container .developer-box .info-box p {
     font-size: 22px;
   }
 }
 
-@media (max-width: 470px) {
-  .developer-container .art-box pre {
+@media (max-width: 600px) {
+  .developer-container .developer-box .art-box pre {
     font-size: 11px;
   }
-  .developer-container .info-box {
+}
+
+@media (max-width: 500px) {
+  .developer-container .developer-box .art-box pre {
+    font-size: 10px;
+  }
+  .developer-container .developer-box .info-box {
     padding-left: 0px;
   }
 }
 
 @media (max-width: 400px) {
-  .developer-container .art-box pre {
-    font-size: 10px;
+  .developer-container .developer-box .art-box pre {
+    font-size: 9px;
   }
 }
 
 @media (max-width: 370px) {
-  .developer-container .art-box pre {
-    font-size: 9px;
+  .developer-container .developer-box .art-box pre {
+    font-size: 8px;
   }
 }
