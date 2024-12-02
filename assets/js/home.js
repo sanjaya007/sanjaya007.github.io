@@ -1,7 +1,7 @@
 $(window).on("load", function () {
   var typed = new Typed(".auto-type", {
     strings: [
-      "Developer: Sanjaya Paudel <br> Portfolio: <a href='https://iamsanjaya.vercel.app/' target='_blank'>iamsanjaya</a> <br> Email: paudelsanjaya702@gmail.com <br> LinkedIn: <a href='https://www.linkedin.com/in/sanjaya07/' target='_blank'>https://www.linkedin.com/in/sanjaya07/</a> <br> Github: <a href='https://github.com/sanjaya007' target='_blank'>sanjaya007</a><br>",
+      "Developer: Sanjaya Paudel <br> Portfolio: <a href='https://iamsanjaya.vercel.app/' target='_blank'>iamsanjaya</a> <br> Email: paudelsanjaya702@gmail.com <br> LinkedIn: <a href='https://www.linkedin.com/in/sanjaya07/' target='_blank'>https://www.linkedin.com/in/sanjaya07/</a> <br> Github: <a href='https://github.com/sanjaya007' target='_blank'>sanjaya007</a> <br> Projects: <a href='https://iamsanjaya.vercel.app/archive' target='_blank'>View Archive</a>",
     ],
     typeSpeed: 50,
   });
